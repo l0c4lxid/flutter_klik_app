@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '/ui/poli_page.dart';
+import 'ui/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Klinik APP',
       debugShowCheckedModeBanner: false,
-      home: PoliPage(),
+      home: HomePage(),
     );
   }
 }
